@@ -1,0 +1,124 @@
+{
+    "data": {
+      "sections": [
+        {
+            "lotteries": [
+                {
+                  "id": "1",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Скарбничка",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" },
+                  "actionLink": {
+                    "id": "1",
+                    "url": "/"
+                  }
+                },
+                {
+                  "id": "2",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Дуже довга назва лотереї в 2 рядки",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                  "id": "3",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Скарбничка",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                  "id": "4",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Дуже довга назва лотереї в 2 рядки",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                    "id": "5",
+                    "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                    "title": "Скарбничка",
+                    "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                    "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                    "id": "6",
+                    "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                    "title": "Дуже довга назва лотереї в 2 рядки",
+                    "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                    "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                    "id": "7",
+                    "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                    "title": "Скарбничка",
+                    "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                    "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                    "id": "8",
+                    "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                    "title": "Дуже довга назва лотереї в 2 рядки",
+                    "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                    "cost": { "text": "Вартість", "value": "10 грн" }
+                }
+            ],
+            "title": "Лотереї",
+            "actionLink": {
+                "id": "1",
+                "title": "Де можна придбати",
+                "url": "/"
+            },
+            "__component": "sections.activeLotteries"
+        },
+        {
+            "lotteries": [
+                {
+                  "id": "1",
+                  "startDate": "23.09.2024",
+                  "endDate": "06.12.2024",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Скарбничка",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" },
+                  "actionLink": {
+                    "id": "1",
+                    "url": "/"
+                  }
+                },
+                {
+                  "id": "2",
+                  "startDate": "23.09.2024",
+                  "endDate": "06.12.2024",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Дуже довга назва лотереї в 2 рядки",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                  "id": "3",
+                  "startDate": "23.09.2024",
+                  "endDate": "06.12.2024",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Скарбничка",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                  "id": "4",
+                  "startDate": "23.09.2024",
+                  "endDate": "06.12.2024",
+                  "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+                  "title": "Дуже довга назва лотереї в 2 рядки",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                }
+            ],
+            "title": "Архів",
+            "__component": "sections.archivedLotteries"
+        }
+      ]
+    }
+  }
+  
