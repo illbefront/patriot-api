@@ -2,7 +2,6 @@
   "data": {
     "sections": [
       {
-        "__component": "sections.slider",
         "slides": [
           {
             "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
@@ -34,10 +33,10 @@
               "title": "Детальніше"
             }
           }
-        ]
+        ],
+        "__component": "sections.slider"
       },
       {
-        "__component": "sections.companyOverview",
         "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
         "title": "Про компанію “Патріот”",
         "description": "ПрАТ “Патріот” є лідером серед операторів державних лотерей України. Діяльність “Патріот” – це випуск та проведення більше 30 лотерей",
@@ -64,10 +63,10 @@
             "header": "1 150 000 ₴",
             "text": "Виплачених джекпотів"
           }
-        ]
+        ],
+        "__component": "sections.companyOverview"
       },
       {
-        "__component": "sections.activeLotteries",
         "title": "Наші продукти",
         "actionLink": {
           "id": "1",
@@ -107,7 +106,8 @@
             "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
             "cost": { "text": "Вартість", "value": "10 грн" }
           }
-        ]
+        ],
+        "__component": "sections.activeLotteries"
       }
     ]
   }
