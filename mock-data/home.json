@@ -107,6 +107,7 @@
             "cost": { "text": "Вартість", "value": "10 грн" }
           }
         ],
+        "sliderOnMobile": true,
         "__component": "sections.activeLotteries"
       }
     ]
