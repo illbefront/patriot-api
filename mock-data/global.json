@@ -1,0 +1,90 @@
+{
+    "data": {
+      "footer": {
+        "linkGroups": [
+          {
+            "title": "Про компанію",
+            "links": [
+              {
+                "title": "Ліцензія",
+                "url": "/license"
+              },
+              {
+                "title": "Емітент",
+                "url": "/issuer"
+              }
+            ]
+          },
+          {
+            "title": "Де купити",
+            "links": [
+              {
+                "title": "Точки розповсюдження лотерей",
+                "url": "/contacts"
+              }
+            ]
+          },
+          {
+            "title": "Контакти",
+            "links": [
+              {
+                "title": "+38 095 000 00 00",
+                "url": "tel:+380950000000"
+              },
+              {
+                "title": "suport@patriot.com",
+                "url": "mailto:suport@patriot.com"
+              }
+            ]
+          },
+          {
+            "title": "Ми в соц. мережах",
+            "links": [
+              {
+                "title": "Facebook",
+                "url": "facebook.com",
+                "newTab": true
+              },
+              {
+                "title": "Instagram",
+                "url": "instagram.com",
+                "newTab": true
+              }
+            ]
+          }
+        ],
+        "mobileAppLinks": [
+          {
+            "title": "Наші додатки",
+            "links": [
+              {
+                "title": "Грай відповідально з “Патріот”",
+                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "googlePlay": "/",
+                "appStore": "/"
+              },
+              {
+                "title": "Лотерейні новини від “Патріот”",
+                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "googlePlay": "/",
+                "appStore": "/"
+              },
+              {
+                "title": "Лотереї “Патріот”",
+                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "googlePlay": "/",
+                "appStore": "/"
+              },
+              {
+                "title": "Лотереї “Патріот”",
+                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "googlePlay": "/",
+                "appStore": "/"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
