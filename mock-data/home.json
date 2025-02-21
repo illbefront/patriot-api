@@ -4,31 +4,28 @@
       {
         "slides": [
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/htSxzCT7/lottery-balls.jpg",
             "title": "Бажаєш розповсюджувати лотереї? Стань нашим партнером прямо зараз",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "actionLink": {
-              "id": "1",
               "url": "/",
               "title": "Детальніше"
             }
           },
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/htSxzCT7/lottery-balls.jpg",
             "title": "Бажаєш розповсюджувати лотереї? Стань нашим партнером прямо зараз",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "actionLink": {
-              "id": "1",
               "url": "/",
               "title": "Детальніше"
             }
           },
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/htSxzCT7/lottery-balls.jpg",
             "title": "Бажаєш розповсюджувати лотереї? Стань нашим партнером прямо зараз",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
             "actionLink": {
-              "id": "1",
               "url": "/",
               "title": "Детальніше"
             }
@@ -37,29 +34,26 @@
         "__component": "sections.slider"
       },
       {
-        "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-        "title": "Про компанію “Патріот”",
-        "description": "ПрАТ “Патріот” є лідером серед операторів державних лотерей України. Діяльність “Патріот” – це випуск та проведення більше 30 лотерей",
-        "missionTitle": "Наша міссія",
-        "missionText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "https://i.postimg.cc/SspmRPYB/7fccb466461ce7655403b40a4bb87883.jpg",
+        "html": "<h1>Про компанію “Патріот”</h1><h3>ПрАТ “Патріот” є лідером серед операторів державних лотерей України. Діяльність “Патріот” – це випуск та проведення більше 30 лотерей</h3><h4>НАША МІСІЯ</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
         "features": [
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/SK6wTxjP/tabler-icon-ticket.png",
             "header": "20",
             "text": "Лотерей"
           },
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/brJWw0LX/tabler-icon-map-pin.png",
             "header": "78",
             "text": "Точок розповсюдження"
           },
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/kGpZ6Vh2/tabler-icon-calendar-time.png",
             "header": "10",
             "text": "Років на ринку лотерей"
           },
           {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/qBbWZYMp/tabler-icon-coins.png",
             "header": "1 150 000 ₴",
             "text": "Виплачених джекпотів"
           }
@@ -68,15 +62,18 @@
       },
       {
         "title": "Наші продукти",
-        "actionLink": {
-          "id": "1",
+        "primaryLink": {
+          "title": "Переглянути більше",
+          "url": "/lotteries"
+        },
+        "secondaryLink": {
           "title": "Де можна придбати",
-          "url": "/"
+          "url": "/contacts"
         },
         "lotteries": [
           {
             "id": "1",
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
             "title": "Скарбничка",
             "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
             "cost": { "text": "Вартість", "value": "10 грн" },
@@ -87,21 +84,21 @@
           },
           {
             "id": "2",
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
             "title": "Дуже довга назва лотереї в 2 рядки",
             "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
             "cost": { "text": "Вартість", "value": "10 грн" }
           },
           {
             "id": "3",
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
             "title": "Скарбничка",
             "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
             "cost": { "text": "Вартість", "value": "10 грн" }
           },
           {
             "id": "4",
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
             "title": "Дуже довга назва лотереї в 2 рядки",
             "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
             "cost": { "text": "Вартість", "value": "10 грн" }
@@ -110,6 +107,7 @@
         "sliderOnMobile": true,
         "__component": "sections.activeLotteries"
       }
-    ]
+    ],
+    "title": "Головна"
   }
 }
