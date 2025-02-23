@@ -2,57 +2,85 @@
     "data": {
       "sections": [
         {
-            "articles": [
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-            ],
-            "title": "Чому варто стати нашим партнером",
-            "__component": "sections.articles"
+          "htmlContent": "<h1>Чому варто стати нашим партнером</h1><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li></ul>",
+          "__component": "sections.markdown"
         },
         {
-            "image": "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
+            "image": "https://i.postimg.cc/VsSq91m8/form-image.jpg",
             "contactForm": {
               "title": "Хочете стати нашим партнером?",
               "subTitle": "Залиште свій номер телефону і ми з вами звʼяжемось",
               "contacts": {
                 "title": "Наші контакти",
                 "numbers": ["+38 (095) 123 56 78", "+38 (095) 123 56 78", "+38 (095) 123 56 78"]
+              },
+              "submitFormLink": {
+                "url": "/"
               }
             },
             "__component": "sections.contactUs"
         },
         {
-          "articles": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          ],
-          "title": "Вимоги до партнерів",
           "filled": true,
-          "__component": "sections.articles"
+          "htmlContent": "<h1>Вимоги до партнерів</h1><ul><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li><li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li></ul>",
+          "__component": "sections.markdown"
         },
         {
-          "logos": [
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png",
-            "https://www.tinytickers.org/wp-content/uploads/2023/06/Tiny-Tickers-Lottery-1536x864-1.png"
+          "partnerList": [
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            },
+            {
+              "title": "Vodafone",
+              "logo": "https://i.postimg.cc/dVVjgCrb/vodafone.png"
+            }
           ],
           "title": "Партнери",
           "__component": "sections.partners"
         }
-      ]
+      ],
+      "title": "Партнерство"
     }
   }
   
