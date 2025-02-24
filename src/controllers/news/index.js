@@ -1,49 +1,54 @@
 const newsList = require("../../../mock-data/news-list.json");
 
+const DEFAULT_LIMIT = 20;
+const MAX_LIMIT = 100;
+
 const callToActionText = "Детальніше";
 const title = "Новини";
-const pageSize = 20;
 
 const newsListController = (req, res) => {
   try {
-    const requestedPage = Number(req.query.page) || 1;
-    const totalPages = Math.ceil(newsList.length / pageSize);
+    const { skip: requestedSkip, limit: requestedLimit } = req.query;
+    const skip = Number(requestedSkip) || 0;
+    const limit = Number(requestedLimit) || DEFAULT_LIMIT;
     const meta = {
-      currentPage: requestedPage,
-      totalPages,
-      pageSize,
       title: "Новини",
     };
 
-    if (Number.isNaN(requestedPage) || requestedPage < 1)
+    if (Number.isNaN(skip) || skip < 0 || Number.isNaN(limit) || limit < 0)
       return res.status(400).send({
         data: {
           title,
           callToActionText,
         },
-        meta: {
-          title: "Новини",
-        },
-        error: "Page must be positive integer.",
+        meta,
+        error: "Skip & limit must be positive integers.",
       });
 
-    if (requestedPage > totalPages)
-      return res.status(404).send({
-        data: { title, callToActionText },
-        error: "Requested page number exceeds total pages.",
+    if (limit > MAX_LIMIT)
+      return res.status(400).send({
+        data: {
+          title,
+          callToActionText,
+        },
         meta,
+        error: `Limit exceeds the acceptable value - ${MAX_LIMIT}.`,
       });
 
     return res.send({
       data: {
-        newsList: newsList.slice(
-          (requestedPage - 1) * pageSize,
-          (requestedPage - 1) * pageSize + pageSize
-        ),
+        newsList: newsList.slice(skip, skip + limit),
         title,
         callToActionText,
       },
-      meta,
+      meta: {
+        ...meta,
+        pagination: {
+          total: newsList.length,
+          skip,
+          limit,
+        },
+      },
     });
   } catch (err) {
     res.status(500).json({ message: err.message });
