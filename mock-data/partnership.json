@@ -79,10 +79,10 @@
           "title": "Партнери",
           "__component": "sections.partners"
         }
-      ]
-    },
-    "meta": {
-      "title": "Партнерство"
+      ],
+      "meta": {
+        "title": "Партнерство"
+      }
     }
   }
   

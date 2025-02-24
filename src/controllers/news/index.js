@@ -8,21 +8,21 @@ const title = "Новини";
 
 const newsListController = (req, res) => {
   try {
-    const { skip: requestedSkip, limit: requestedLimit } = req.query;
-    const skip = Number(requestedSkip) || 0;
+    const { offset: requestedOffset, limit: requestedLimit } = req.query;
+    const offset = Number(requestedOffset) || 0;
     const limit = Number(requestedLimit) || DEFAULT_LIMIT;
     const meta = {
       title: "Новини",
     };
 
-    if (Number.isNaN(skip) || skip < 0 || Number.isNaN(limit) || limit < 0)
+    if (Number.isNaN(offset) || offset < 0 || Number.isNaN(limit) || limit < 0)
       return res.status(400).send({
         data: {
           title,
           callToActionText,
+          meta,
         },
-        meta,
-        error: "Skip & limit must be positive integers.",
+        error: "Offset & limit must be positive integers.",
       });
 
     if (limit > MAX_LIMIT)
@@ -30,23 +30,23 @@ const newsListController = (req, res) => {
         data: {
           title,
           callToActionText,
+          meta,
         },
-        meta,
         error: `Limit exceeds the acceptable value - ${MAX_LIMIT}.`,
       });
 
     return res.send({
       data: {
-        newsList: newsList.slice(skip, skip + limit),
+        newsList: newsList.slice(offset, offset + limit),
         title,
         callToActionText,
-      },
-      meta: {
-        ...meta,
-        pagination: {
-          total: newsList.length,
-          skip,
-          limit,
+        meta: {
+          ...meta,
+          pagination: {
+            total: newsList.length,
+            offset,
+            limit,
+          },
         },
       },
     });

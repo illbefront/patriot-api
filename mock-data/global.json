@@ -1,5 +1,59 @@
 {
     "data": {
+      "header": {
+        "desktopNavLinks": [
+          {
+            "title": "Головна",
+            "url": "/"
+          },
+          {
+            "title": "Лотереї",
+            "url": "/lotteries"
+          },
+          {
+            "title": "Партнерство",
+            "url": "/partnership"
+          },
+          {
+            "title": "Контакти",
+            "url": "/contacts"
+          },
+          {
+            "title": "Новини",
+            "url": "/news"
+          },
+          {
+            "title": "FAQ",
+            "url": "/faq"
+          }
+        ],
+        "mobileNavLinks": [
+          {
+            "title": "Головна",
+            "url": "/"
+          },
+          {
+            "title": "Лотереї",
+            "url": "/lotteries"
+          },
+          {
+            "title": "Партнерство",
+            "url": "/partnership"
+          },
+          {
+            "title": "Контакти",
+            "url": "/contacts"
+          },
+          {
+            "title": "Новини",
+            "url": "/news"
+          },
+          {
+            "title": "FAQ",
+            "url": "/faq"
+          }
+        ]
+      },
       "footer": {
         "linkGroups": [
           {
@@ -32,8 +86,8 @@
                 "url": "tel:+380950000000"
               },
               {
-                "title": "suport@patriot.com",
-                "url": "mailto:suport@patriot.com"
+                "title": "support@patriot.com",
+                "url": "mailto:support@patriot.com"
               }
             ]
           },
@@ -59,25 +113,25 @@
             "links": [
               {
                 "title": "Грай відповідально з “Патріот”",
-                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "image": "https://i.postimg.cc/htcxMPYX/patriot-apps-1.png",
                 "googlePlay": "/",
                 "appStore": "/"
               },
               {
                 "title": "Лотерейні новини від “Патріот”",
-                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "image": "https://i.postimg.cc/FKnL9bHS/patriot-apps-2.png",
                 "googlePlay": "/",
                 "appStore": "/"
               },
               {
                 "title": "Лотереї “Патріот”",
-                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "image": "https://i.postimg.cc/9ff95gCV/patriot-apps-3.png",
                 "googlePlay": "/",
                 "appStore": "/"
               },
               {
                 "title": "Лотереї “Патріот”",
-                "image": "https://static.vecteezy.com/system/resources/previews/012/866/513/non_2x/mobile-app-icon-style-vector.jpg",
+                "image": "https://i.postimg.cc/8z4vYg8t/patriot-apps-4.png",
                 "googlePlay": "/",
                 "appStore": "/"
               }

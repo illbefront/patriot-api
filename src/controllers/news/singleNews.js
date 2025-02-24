@@ -18,9 +18,9 @@ const singleNewsController = (req, res) => {
             __component: "sections.article",
           },
         ],
-      },
-      meta: {
-        title: requiredNews.title,
+        meta: {
+          title: requiredNews.title,
+        },
       },
     });
   } catch (err) {
