@@ -11,6 +11,10 @@ const singleNewsController = (req, res) => {
           {
             htmlContent: requiredNews.htmlContent,
             image: requiredNews.image,
+            backButton: {
+              title: "Назад",
+              url: "/news",
+            },
             __component: "sections.article",
           },
         ],
