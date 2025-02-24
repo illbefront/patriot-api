@@ -3,7 +3,7 @@ const newsList = require("../../../mock-data/news-list.json");
 const singleNewsController = (req, res) => {
   try {
     const requiredNews = newsList.find(({ id }) => id === req.params.id);
-    if (!requiredNews) return res.status(404).send({ data: null });
+    if (!requiredNews) return res.status(404).send({ data: null, meta: {} });
 
     return res.send({
       data: {
@@ -14,6 +14,8 @@ const singleNewsController = (req, res) => {
             __component: "sections.article",
           },
         ],
+      },
+      meta: {
         title: requiredNews.title,
       },
     });

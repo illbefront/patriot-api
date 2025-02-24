@@ -107,7 +107,9 @@
         "sliderOnMobile": true,
         "__component": "sections.activeLotteries"
       }
-    ],
+    ]
+  },
+  "meta": {
     "title": "Головна"
   }
 }

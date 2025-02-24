@@ -115,7 +115,9 @@
             "title": "Архів",
             "__component": "sections.archivedLotteries"
         }
-      ],
+      ]
+    },
+    "meta": {
       "title": "Лотереї"
     }
   }

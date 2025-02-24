@@ -8,23 +8,30 @@ const newsListController = (req, res) => {
   try {
     const requestedPage = Number(req.query.page) || 1;
     const totalPages = Math.ceil(newsList.length / pageSize);
-    const meta = { currentPage: requestedPage, totalPages, pageSize };
+    const meta = {
+      currentPage: requestedPage,
+      totalPages,
+      pageSize,
+      title: "Новини",
+    };
 
     if (Number.isNaN(requestedPage) || requestedPage < 1)
       return res.status(400).send({
-        data: null,
+        data: {
+          title,
+          callToActionText,
+        },
+        meta: {
+          title: "Новини",
+        },
         error: "Page must be positive integer.",
-        callToActionText,
-        title,
       });
 
     if (requestedPage > totalPages)
       return res.status(404).send({
-        data: null,
+        data: { title, callToActionText },
         error: "Requested page number exceeds total pages.",
         meta,
-        callToActionText,
-        title,
       });
 
     return res.send({
@@ -33,10 +40,10 @@ const newsListController = (req, res) => {
           (requestedPage - 1) * pageSize,
           (requestedPage - 1) * pageSize + pageSize
         ),
+        title,
+        callToActionText,
       },
       meta,
-      callToActionText,
-      title,
     });
   } catch (err) {
     res.status(500).json({ message: err.message });

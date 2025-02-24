@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const PORT = 7000;
 
@@ -13,6 +14,12 @@ const { partnershipPageController } = require("./src/controllers/partnership");
 
 const { newsListController } = require("./src/controllers/news");
 const { singleNewsController } = require("./src/controllers/news/singleNews");
+
+app.use(
+  cors({
+    origin: "http://localhost:3000", // Allow only requests from this origin
+  })
+);
 
 // global config
 app.get("/global", globalConfigController);

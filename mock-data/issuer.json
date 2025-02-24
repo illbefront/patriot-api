@@ -107,7 +107,9 @@
           ],
           "__component": "sections.expandableGroups"
         }
-      ],
+      ]
+    },
+    "meta": {
       "title": "Емітент"
     }
 }
