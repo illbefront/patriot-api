@@ -1,6 +1,7 @@
 [
     {
         "id": "4b3115b7-6a2c-4107-a633-30fcaa3dd340",
+        "slug": "slug-1",
         "image": "https://i.postimg.cc/cH4TZx46/news-preview.jpg",
         "title": "1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -8,6 +9,7 @@
     },
     {
         "id": "e067e495-66d6-470d-9229-dcff88923db5",
+        "slug": "slug-2",
         "image": "https://i.postimg.cc/cH4TZx46/news-preview.jpg",
         "title": "2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -15,6 +17,7 @@
     },
     {
         "id": "9b5815bb-517c-41b1-a417-06fa3e9e3bb2",
+        "slug": "slug-3",
         "image": "https://i.postimg.cc/cH4TZx46/news-preview.jpg",
         "title": "3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -22,6 +25,7 @@
     },
     {
         "id": "a8f83665-ed0d-4784-b857-2b5998ba1685",
+        "slug": "slug-4",
         "image": "https://i.postimg.cc/cH4TZx46/news-preview.jpg",
         "title": "4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -29,6 +33,7 @@
     },
     {
         "id": "6ece1929-c516-4479-b0f0-e7541cc35d22",
+        "slug": "slug-5",
         "image": "https://i.postimg.cc/cH4TZx46/news-preview.jpg",
         "title": "5 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -36,6 +41,7 @@
     },
     {
         "id": "a7c4992b-352a-474e-88ef-cffd3838fdc4",
+        "slug": "slug-6",
         "image": "https://i.postimg.cc/cH4TZx46/news-preview.jpg",
         "title": "6 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
         "subject": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",

@@ -33,7 +33,7 @@ app.get("/lotteries", lotteriesPageController);
 app.get("/partnership", partnershipPageController);
 
 app.get("/news", newsListController);
-app.get("/news/:id", singleNewsController);
+app.get("/news/:slug", singleNewsController);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

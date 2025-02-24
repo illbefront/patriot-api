@@ -37,7 +37,15 @@ const newsListController = (req, res) => {
 
     return res.send({
       data: {
-        newsList: newsList.slice(offset, offset + limit),
+        newsList: newsList
+          .slice(offset, offset + limit)
+          .map(({ id, slug, image, title, subject }) => ({
+            id,
+            slug,
+            image,
+            title,
+            subject,
+          })),
         title,
         callToActionText,
         meta: {
