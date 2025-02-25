@@ -10,6 +10,7 @@ const { homePageController } = require("./src/controllers/home");
 const { issuerPageController } = require("./src/controllers/issuer");
 const { licensePageController } = require("./src/controllers/license");
 const { lotteriesPageController } = require("./src/controllers/lotteries");
+const { lotteryController } = require("./src/controllers/lotteries/lottery");
 const { partnershipPageController } = require("./src/controllers/partnership");
 
 const { newsListController } = require("./src/controllers/news");
@@ -30,6 +31,7 @@ app.get("/home", homePageController);
 app.get("/issuer", issuerPageController);
 app.get("/license", licensePageController);
 app.get("/lotteries", lotteriesPageController);
+app.get("/lotteries/:slug", lotteryController);
 app.get("/partnership", partnershipPageController);
 
 app.get("/news", newsListController);

@@ -3,7 +3,7 @@ const newsList = require("../../../mock-data/news-list.json");
 const singleNewsController = (req, res) => {
   try {
     const requiredNews = newsList.find(({ slug }) => slug === req.params.slug);
-    if (!requiredNews) return res.status(404).send({ data: null, meta: {} });
+    if (!requiredNews) return res.status(404).send({ data: { meta: {} } });
 
     return res.send({
       data: {

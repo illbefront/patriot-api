@@ -4,64 +4,69 @@
         {
             "lotteries": [
                 {
-                  "id": "1",
-                  "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
-                  "title": "Скарбничка",
-                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
-                  "cost": { "text": "Вартість", "value": "10 грн" },
-                  "actionLink": {
-                    "url": "/"
-                  }
-                },
-                {
-                  "id": "2",
-                  "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
-                  "title": "Дуже довга назва лотереї в 2 рядки",
-                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
-                  "cost": { "text": "Вартість", "value": "10 грн" }
-                },
-                {
-                  "id": "3",
+                  "id": "8b0b34f7-3505-46b2-ae5e-d4988bb0d129",
+                  "slug": "lottery-slug-1",
                   "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
                   "title": "Скарбничка",
                   "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
                   "cost": { "text": "Вартість", "value": "10 грн" }
                 },
                 {
-                  "id": "4",
+                  "id": "2b7b2954-2d83-41c0-9c6f-26cc8b0041ed",
+                  "slug": "lottery-slug-2",
                   "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
                   "title": "Дуже довга назва лотереї в 2 рядки",
                   "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
                   "cost": { "text": "Вартість", "value": "10 грн" }
                 },
                 {
-                    "id": "5",
+                  "id": "3c70b277-9d9b-4c1c-b35e-bf784c3d8da6",
+                  "slug": "lottery-slug-3",
+                  "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
+                  "title": "Скарбничка",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                  "id": "7f8a1db0-365b-46fa-8ed1-bdc7fe9c5a4d",
+                  "slug": "lottery-slug-4",
+                  "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
+                  "title": "Дуже довга назва лотереї в 2 рядки",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
+                },
+                {
+                    "id": "9b84a019-bff7-4cd5-a49d-e9b83d435c76",
+                    "slug": "lottery-slug-5",
                     "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
                     "title": "Скарбничка",
                     "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
                     "cost": { "text": "Вартість", "value": "10 грн" }
                 },
                 {
-                    "id": "6",
+                    "id": "a0efae51-cf02-4f1f-b2ed-dcb7f2106d61",
+                    "slug": "lottery-slug-6",
                     "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
                     "title": "Дуже довга назва лотереї в 2 рядки",
                     "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
                     "cost": { "text": "Вартість", "value": "10 грн" }
                 },
                 {
-                    "id": "7",
-                    "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
-                    "title": "Скарбничка",
-                    "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
-                    "cost": { "text": "Вартість", "value": "10 грн" }
+                  "id": "6ece1929-c516-4479-b0f0-e7541cc35d22",
+                  "slug": "lottery-slug-7",
+                  "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
+                  "title": "Скарбничка",
+                  "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                  "cost": { "text": "Вартість", "value": "10 грн" }
                 },
                 {
-                    "id": "8",
-                    "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
-                    "title": "Дуже довга назва лотереї в 2 рядки",
-                    "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
-                    "cost": { "text": "Вартість", "value": "10 грн" }
-                }
+                "id": "a7c4992b-352a-474e-88ef-cffd3838fdc4",
+                "slug": "lottery-slug-8",
+                "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
+                "title": "Дуже довга назва лотереї в 2 рядки",
+                "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
+                "cost": { "text": "Вартість", "value": "10 грн" }
+              }
             ],
             "title": "Лотереї",
             "secondaryLink": {
@@ -79,10 +84,7 @@
                   "image": "https://i.postimg.cc/vHbMvGCN/lottery-bg.png",
                   "title": "Скарбничка",
                   "jackpot": { "text": "Джекпот", "value": "100 000 грн" },
-                  "cost": { "text": "Вартість", "value": "10 грн" },
-                  "actionLink": {
-                    "url": "/"
-                  }
+                  "cost": { "text": "Вартість", "value": "10 грн" }
                 },
                 {
                   "id": "2",
