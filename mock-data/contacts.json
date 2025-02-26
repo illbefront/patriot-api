@@ -71,6 +71,15 @@
                 "address": "м. Київ, бульвар Лесі Українки, 26a"
               }
             ],
+            "contacts": {
+              "title": "Гаряча лінія",
+              "phone": "+38 (093) 123-45-67",
+              "hours": "Пн - Сб 09:00 - 21:00"
+            },
+            "switch": {
+              "officesTitle": "Головні офіси компанії",
+              "distributorsTitle": "Точки продажу лотерей"
+            },
             "hoursTitle": "Графік роботи",
             "__component": "sections.locations"
         }
