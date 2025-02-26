@@ -5,6 +5,7 @@ const PORT = 7000;
 
 const { globalConfigController } = require("./src/controllers/global");
 
+const { contactsPageController } = require("./src/controllers/contacts");
 const { faqPageController } = require("./src/controllers/faq");
 const { homePageController } = require("./src/controllers/home");
 const { issuerPageController } = require("./src/controllers/issuer");
@@ -26,6 +27,7 @@ app.use(
 app.get("/global", globalConfigController);
 
 // pages
+app.get("/contacts", contactsPageController);
 app.get("/faq", faqPageController);
 app.get("/home", homePageController);
 app.get("/issuer", issuerPageController);
