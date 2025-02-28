@@ -96,15 +96,18 @@
             "links": [
               {
                 "title": "Facebook",
-                "url": "facebook.com",
+                "url": "https://facebook.com",
+                "icon": "https://i.postimg.cc/PqTWYjLT/facebook.png",
                 "newTab": true
               },
               {
                 "title": "Instagram",
-                "url": "instagram.com",
+                "url": "https://instagram.com",
+                "icon": "https://i.postimg.cc/CK7j4QDD/instagram.png",
                 "newTab": true
               }
-            ]
+            ],
+            "horizontalList": true
           }
         ],
         "mobileAppLinks": [
