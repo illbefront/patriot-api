@@ -17,11 +17,14 @@ const { partnershipPageController } = require("./src/controllers/partnership");
 const { newsListController } = require("./src/controllers/news");
 const { singleNewsController } = require("./src/controllers/news/singleNews");
 
+const { feedbackFormController } = require("./src/controllers/feedback");
+
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow only requests from this origin
+    origin: "http://localhost:3000",
   })
 );
+app.use(express.json());
 
 // global config
 app.get("/global", globalConfigController);
@@ -38,6 +41,9 @@ app.get("/partnership", partnershipPageController);
 
 app.get("/news", newsListController);
 app.get("/news/:slug", singleNewsController);
+
+// form submit handler
+app.post("/feedback", feedbackFormController);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

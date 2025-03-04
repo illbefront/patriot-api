@@ -15,7 +15,7 @@
                 "numbers": ["+38 (095) 123 56 78", "+38 (095) 123 56 78", "+38 (095) 123 56 78"]
               },
               "submitFormLink": {
-                "url": "/"
+                "url": "https://ywz8gl-7000.csb.app/feedback"
               }
             },
             "__component": "sections.contactUs"
