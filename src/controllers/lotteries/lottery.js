@@ -20,6 +20,15 @@ const lotteryController = (req, res) => {
             },
             __component: "sections.article",
           },
+          {
+            title: "Умови проведення лотереї",
+            pdfFile: {
+              image: "https://i.postimg.cc/zXBCf2r2/license.png",
+              title: "Lorem ipsum sit amet....pdf",
+              link: { url: "/" },
+            },
+            __component: "sections.documentDetails",
+          },
         ],
         meta: {
           title: requiredLottery.title,
